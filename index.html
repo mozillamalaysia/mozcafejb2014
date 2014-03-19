@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="fade nonumbers" manifest="moosecon.manifest">
+<!-- 
+  ^ You can control a few things with the <html> element's classes:
+
+  "fade"      - smooth fade between slides
+  "nonumbers" - remove the slide numbering after the progress bar
+-->
+
+<head>
+  <title>MozCafe Johor Bahru 2014</title>
+  <!-- 
+    ^ Don't forget a good title - they show up as bookmarks and in Google 
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    /* Add your own styles here */
+    .talkdescription {
+      font-size: 12px;
+      color: #fff;
+      width: 80%;
+    }
+    .full .talkdescription {
+      display: none;
+    }
+    .slide blockquote.lots {
+      font-size: 30px;
+    }
+    .demourl { 
+      bottom: 20px;
+    }
+    .quotesource::before {
+      content: '~';
+    }
+    #reveal {
+      float: right;
+      margin: 20px 0 0 20px;
+      background: #fff;
+      position: relative;
+    }
+    #reveal img {
+      width: 200px;
+      z-index: 5;
+      display: block;
+      opacity: 0.5;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -o-transition: 2s;
+      transition: 2s;
+    }
+    #reveal:hover img {
+      opacity: 1;
+    }
+    .full #recycle h2 {
+      margin-top: -40px;
+    }
+    ul.lots li {
+      float: left;
+      width: 50%;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>MozCafe Johor Bahru 2014</h1>
+    <p class="footer">Mozilla Malaysia Community, <a href="http://twitter.com/mozillamy">@mozilla.my</a></p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate.</p>
+  </aside>
+
+<!-- 
+  The following is a slide, it needs a class of "slide" and it doesn't 
+  hurt to keep the right semantic elements in there, too.
+  IMPORTANT: each slide needs its own unique ID - this will become its
+  URL and this is how this slide system works!
+-->
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <img src="pictures/mozilla_wordmark_300dpi.jpg" alt="Mozilla" class="middle">
+      <small class="byline">
+        MozCafe Johor Bahru 2014, Mariner Cafe, Johor Bahru 15/03/2014 
+      </small>
+    <footer class="notes">
+      In this talk I will give some background on the Mozilla community, and show the opportunities and how to contribute to Mozilla.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="fifteen" class="slide"><div>
+    <section>
+      <header>
+        <h2>How old is Mozilla?</h2>
+      </header>
+      <img src="pictures/moz15_email_oneoff_500x300.jpg" alt="15 Years" class="middle shadow">
+    <footer class="notes">
+      The Mozilla project was launched on March 31, 1998 when the source code was opened up. Community was built-in from the start.
+      The community grew organically, but we can no longer take that for granted.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="builders" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Mozilla Malaysia Community</h2>
+      </header>
+      <img src="pictures/NEO_7045.jpg" alt="Builders" class="middle shadow">
+    <footer class="notes">
+      Being founded on July 2011 as small community in Kuala Lumpur. Hence, we are prioritising community building in the organisation. A core group across all functional areas has been formed.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="who" class="slide"><div>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+      <img src="pictures/infographic_5.jpg" alt="Who" class="middle shadow">
+    <footer class="notes">
+      Our community is made up of a number of groups, ranging from core contributors to users.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="regional" class="slide"><div>
+    <section>
+      <header>
+        <h2>Regional Communities</h2>
+      </header>
+      <img src="pictures/mozilla_antarctica.png" alt="antarctica" height="380" class="middle shadow">
+      <small class="credits">
+        <a href="https://www.mozilla.org/contribute/local/">All communities</a>
+      </small> 
+    <footer class="notes">
+      We have regional communities around the world, covering all continents. 
+    </footer>
+    </section>
+  </div></div>
+
+  <div class="slide" id="Entry"><div>
+    <section>
+      <header>
+        <h2>Points of Entry</h2>
+      </header>
+      <ul>
+        <li>Project pages, e.g. SUMO</li>
+        <li>Events</li>
+        <li>Get Involved page (/contribute)</li>
+        <li>Local community sites</li>
+        <li>Word of mouth, emails, donation drives, ...</li>
+      </ul>
+    <footer class="notes">
+      Here are some of the ways you may have entered the Mozilla project.
+    </footer>
+    </section>
+  </div></div>
+
+  <div class="slide" id="Funnels"><div>
+    <section>
+      <header>
+        <h2>Contribute Page - 2 Funnels</h2>
+      </header>
+      <ul>
+        <li>By functional area</li>
+        <li>By locale</li>
+      </ul>
+    <footer class="notes">
+      On the form, you can specify a functional area you are interested in, and the email will be directed to stewards in that those areas. Inquiries from localised Contribute pages will go directly to the local community.
+    </footer>
+    </section>
+  </div></div>
+
+  <div class="slide cover h" id="15contribute"><div>
+    <section>
+      <img src="pictures/15contribute.png" height="400" class="middle shadow" alt="15 Facts Contribute Page">
+    <footer class="notes">
+      This is what the page currently looks like. As part of the 15 years anniversary, we have 15 facts. Below is the form. Below that (not shown) is a list of functional areas where you can click through and find out more.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="functional" class="slide"><div>
+    <section>
+      <header>
+        <h2>Functional Areas</h2>
+      </header>
+      <ul>
+        <li>Coding</li>
+        <li>l10n</li>
+        <li>Marketing</li>
+        <li>Communications / PR</li>
+        <li>Documentation</li>
+        <li>Community Building</li>
+        <li>Webmaker</li>
+        <li>And many more...</li>
+      </ul>
+    <footer class="notes">
+      There are many areas of the Mozilla project that you can become involved in.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="path" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Paths</h2>
+      </header>
+      <img src="pictures/codingpath.png" alt="Reps" class="middle shadow">
+    <footer class="notes">
+      An example path of contribution in a particular functional area.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="pathways" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Badge Pathways</h2>
+      </header>
+      <img src="pictures/badgepathways.gif" alt="Badge Pathways" class="middle shadow">
+      <small class="credits">
+        <a href="http://carlacasilli.wordpress.com/2013/03/25/badge-pathways-part-1-the-paraquel/">Read the full post</a>
+      </small> 
+    <footer class="notes">
+      Hopping around the badge grid. "Badge pathways provide people with opportunities to make decisions based in personal agency, to define steps that may seem more like hops, and to think about ways to do things that aren’t sequential or even seemingly rational."
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="jungle" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Hack Your Own Path</h2>
+      </header>
+      <img src="pictures/jungle.jpg" alt="Reps" class="middle shadow">
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/spool32/4543748407/">Picture by Will Clayton on Flickr</a>
+      </small>
+    <footer class="notes">
+      Sometimes the path is not clear and obvious. Make your own.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="metrics" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Metrics</h2>
+      </header>
+      <img src="pictures/metrics.png" alt="Metrics" class="middle shadow">
+      <small class="credits">
+        <a href="http://arewegrowingyet.com/">arewegrowingyet.com</a>
+      </small> 
+    <footer class="notes">
+      Our contributor metrics are not very sophisticated yet, but we are getting there. This is a big priority in 2013.
+      Not only will it let us be able to see the health of our community, but it will feed into recognition and reward for the community.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="badges" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Open Badges</h2>
+      </header>
+      <img src="pictures/backpack.jpg" alt="Reps" class="middle shadow">
+      <small class="credits">
+        <a href="https://badges.mozilla.org">badges.mozilla.org</a>
+      </small> 
+    <footer class="notes">
+      Badges are one form of recognition.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="shirts" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>T-Shirts</h2>
+      </header>
+      <img src="pictures/jump.jpg" alt="Reps" class="middle shadow">
+    <footer class="notes">
+      And we have some of the best t-shirts available to mankind.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="mozillians" class="slide cover h"><div>
+    <section>
+      <img src="pictures/mozmyprofile.jpg" alt="Mozillians" class="middle shadow">
+      <small class="credits">
+        <a href="https://mozillians.org">mozillians.org</a>
+      </small> 
+    <footer class="notes">
+      mozillians.org, our community directory.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="ride" class="slide"><div>
+    <section>
+      <header>
+        <h2>The web ride is far from over!</h2>
+      </header>
+      <img src="pictures/ride.gif" 
+           alt="There is no earthly way of knowing which direction we are going" 
+           height="450"
+           class="middle">
+      <footer class="notes">
+        Working with Mozilla is sometimes a wild ride. The web is an existing, world-wide distribution platform and reaches millions of people already with many more to come. You have an opportunity to have a direct impact on millions of people.
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks, join us!</h2>
+      </header>
+        <figure class="frame middle swing">
+        <img src="pictures/thats-all-fox.jpg"
+             width="600" 
+             alt="that's all firefox">
+        </figure>
+      <ul class="oneline demourl">
+        <li>Mozilla Malaysia Community</li>
+        <li><a href="http://twitter.com/mozillamy">@MozillaMy</a></li>
+        <li><a href="http://mozilla.my">
+          http://mozilla.my
+        </a></li>
+      </ul>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <!-- <div class="progress"><div></div></div> -->
+  <!-- 
+    ^ don't like a progress bar? just delete this DIV
+  -->
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
